@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+}
+
+.header {
+  background-color: #1F2937; 
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+}
+
+.logo-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.logo {
+  color:#F9FAF8;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color:#F9FAF8;
+}
+
+.title {
+  font-size: 48px;
+  font-weight:bolder;
+  color: #F9FAF8;
+}
+
