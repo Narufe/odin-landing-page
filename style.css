@@ -46,7 +46,7 @@ a {
   gap: 3px;
 }
 
-.title {
+.hero-title {
   font-size: 48px;
   font-weight:bolder;
   color: #F9FAF8;
@@ -71,4 +71,3 @@ button {
   justify-content: center;
   align-items: center;
 }
-
