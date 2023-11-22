@@ -121,21 +121,39 @@ a {
 }
 
 
-/* 
+
 .quote {
-  background-color: #E5E7EB; 
+  background-color: #E5E7EB;
+  padding:90px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
 }
 
 .quote .text {
   font-size: 36px;
   font-style: light italic;
   color: #1F2937;
+  font-style: italic;
 }
 
+.quote .quotee {
+  display: flex;
+  align-self:flex-end;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+
+
+
+/* 
 .footer {
   background-color: #E5E7EB; 
 }
 
 .sign-up button {
 
-} */
+}
+ */
