@@ -115,8 +115,9 @@ a {
 .subtext {
   display: flex;
   width: 130px;
-  flex-wrap: wrap;
   font-size: 15px;
+  display: flex;
+  text-align: center;
 }
 
 .quote {
