@@ -53,12 +53,12 @@ a {
   
 }
 
-.description{
+.title-desc .description {
   font-size: 18px;
   color: #E5E7EB;
 }
 
-button {
+.title-desc button {
   background-color: #3882F6;
   border-radius: 5px;
   width: 90px;
@@ -71,3 +71,71 @@ button {
   justify-content: center;
   align-items: center;
 }
+
+.info {
+  background-color: white; 
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 35px;
+}
+
+.info-title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  display: flex;
+  justify-content: center;
+}
+
+.illustrations {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  /* background-color: red; */
+  justify-content: center;
+  gap: 30px;
+}
+
+.illustrations illustration {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  /* align-items: center; */
+  /* background-color: red; */
+}
+
+.box {
+  border-radius: 10px;
+  border: 2px solid #2134ad;
+  padding: 20px;
+  width: 90px;
+  height: 90px;
+}
+
+.subtext {
+  display: flex;
+  width: 130px;
+  flex-wrap: wrap;
+  font-size: 15px;
+}
+
+
+/* 
+.quote {
+  background-color: #E5E7EB; 
+}
+
+.quote .text {
+  font-size: 36px;
+  font-style: light italic;
+  color: #1F2937;
+}
+
+.footer {
+  background-color: #E5E7EB; 
+}
+
+.sign-up button {
+
+} */
