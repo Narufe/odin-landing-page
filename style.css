@@ -60,7 +60,7 @@ a {
 .title-desc button {
   background-color: #3882F6;
   border-radius: 5px;
-  width: 90px;
+  width: 80px;
 }
 
 .main-image {
@@ -137,4 +137,44 @@ a {
   font-weight: bold;
 }
 
+.call {
+  background-color: white;
+  padding: 50px;
+}
 
+.call container {
+  color: white;
+  background-color: #3882F6;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action .title{
+  font-weight: bold;
+  font-size: large;
+}
+
+.sign-up {
+  display: flex;
+  align-items: flex-end;
+}
+
+.sign-up button {
+  background-color: #3882F6;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 85px;
+  height: 25px;;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+
+
+ /* 
+.footer {
+  color: red;
+} */
