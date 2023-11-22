@@ -59,8 +59,11 @@ a {
 
 .title-desc button {
   background-color: #3882F6;
+  border: solid  #3882F6;
+  color: #E5E7EB;
+  font-weight: bold;
   border-radius: 5px;
-  width: 80px;
+  width: 85px;
 }
 
 .main-image {
